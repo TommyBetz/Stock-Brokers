@@ -1,14 +1,18 @@
 # Stock Brokers
 
-# Project Title
+# Stock Market Prediction
 
-One Paragraph of project description goes here
+The topic of our project is to predict a closing stock price using historic stock data in combination with the sentiments of news articles and twitter tweets. We used an RNN LSTM (Long Short Term Memory) neural network model as this works best for time series data. 
 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
+
+Our code is written in Python and executed on Google Google Cloud Dataproc (Cloud-native Apache Hadoop and Apache Spark) and Google Colab. Given the required libraries are installed, this code can also run locally. However, as the twitter dataset reaches 3 TB, we recommend Google Dataproc for downloading and pre-processing such data volume.
+
+For the visualizations part we used PowerBI.
 
 What things you need to install the software and how to install them
 
@@ -18,9 +22,8 @@ Give examples
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+As we used Google Dataproc and Google Colab, there was no need to install any additional packages and libraries. However, if you would like to run this code locally, these are the necessaties to install:
 
-Say what the step will be
 
 ```
 Give the example
@@ -33,6 +36,48 @@ until finished
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
+
+
+## Getting the Data
+
+Please follow these instructions to obtain the raw datasets.
+
+### News Data
+
+Instructions & File Name
+
+### Twitter Data
+
+Instructions & File Name
+
+### Historic Stock Data
+
+Instructions & File Name
+
+## Pre-Processing
+
+### News Data
+
+Instructions & File Name
+
+### Twitter Data
+
+Instructions & File Name
+
+### Historic Stock Data
+
+Instructions & File Name
+
+## Running the LSTM (Long Short Term Memory) Model
+
+Instructions & File Name
+Parameter Tweaking
+
+
+### Visualizations
+
+Instructions & File Name
+
 
 ## Running the tests
 
@@ -74,7 +119,11 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Gaurav Prachchhak** - *Initial work* - [gauravprachchhak](https://github.com/gauravprachchhak)
+* **Mihir Gajjar** - *Initial work* - [GajjarMihir](https://github.com/GajjarMihir)
+* **Veekesh Dhununjoy** - *Initial work* - [veekeshjoy](https://github.com/veekeshjoy)
+* **Tommy Betz** - *Initial work* - [TommyBetz](https://github.com/TommyBetz)
+
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
