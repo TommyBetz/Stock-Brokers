@@ -1,8 +1,9 @@
-# Stock Brokers
-
-# Stock Market Prediction
+# SFU Big Data II Final Project: Stock Market Prediction
 
 The topic of our project is to predict a closing stock price using historic stock data in combination with the sentiments of news articles and twitter tweets. We used an RNN LSTM (Long Short Term Memory) neural network model as this works best for time series data. 
+
+## Background, Findings and Details
+Further information can be found in our Poster as well as the Final Report. ADD LINKS
 
 ## Getting Started
 
@@ -95,11 +96,6 @@ Add additional notes about how to deploy this on a live system
 * [Power BI] (https://powerbi.microsoft.com/) - Power BI is a collection of software services, apps, and connectors that work together to turn your unrelated sources of data into coherent, visually immersive, and interactive insights.
 
 
-
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Contributing
 
