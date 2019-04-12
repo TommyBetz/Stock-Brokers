@@ -20,9 +20,8 @@ As we used Google Dataproc and Google Colab, there was no need to install any ad
 For a local installation, we recommend using Anaconda:
 
 Download and install Anaconda
-...
-https://www.anaconda.com/distribution/
-...
+
+	https://www.anaconda.com/distribution/
 
 
 Jupyter Notebook
@@ -33,28 +32,30 @@ Jupyter Notebook
 
 
 PySpark
-...
-conda install -c conda-forge pyspark
+
+	conda install -c conda-forge pyspark
 <!---pip install pyspark-->
-...
+
 
 TextBlob
-...
-conda install -c conda-forge textblob 
+
+	conda install -c conda-forge textblob 
 <!---pip install -U textblob-->
-...
+
 
 Pandas
-...
-conda install -c anaconda pandas
+
+	conda install -c anaconda pandas
 <!---pip install pandas-->
-...
+
 
 Glob Python3
-...
-conda install -c conda-forge glob2 
+
+	conda install -c conda-forge glob2 
 <!---sudo pip install glob3-->
-...
+
+Download and install Power BI
+	https://powerbi.microsoft.com/en-us/downloads/
 
 
 ## Getting the Data
