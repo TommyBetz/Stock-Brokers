@@ -12,7 +12,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 Our code is written in Python and executed on Google Google Cloud Dataproc (Cloud-native Apache Hadoop and Apache Spark) and Google Colab. Given the required libraries are installed, this code can also run locally. However, as the twitter dataset reaches 3 TB, we recommend Google Dataproc for downloading and pre-processing such data volume.
 
-For the visualizations part we used PowerBI.
+For the visualizations part we used Power BI.
 
 What things you need to install the software and how to install them
 
@@ -74,36 +74,28 @@ Instructions & File Name
 Parameter Tweaking
 
 
-### Visualizations
+## Visualizations
 
 Instructions & File Name
 
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ## Deployment
 
 Add additional notes about how to deploy this on a live system
 
 ## Built With
+
+* [Google Cloud Dataproc] (https://cloud.google.com/dataproc/) - Cloud-native Apache Hadoop and Apache Spark)
+* [Google Colaboratory (Colab)] (https://colab.research.google.com/) - free Jupyter notebook environment that requires no setup and runs entirely in the cloud
+* [Apache Spark] (https://spark.apache.org/) - Apache Spark is a unified analytics engine for big data processing, with built-in modules for streaming, SQL, machine learning and graph processing.
+* [Pandas] (https://pandas.pydata.org/) - pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming
+* [NumPy] (www.numpy.org/) - NumPy is the fundamental package for scientific computing with Python
+* [TextBlob (Simplified Text Processing)] (https://textblob.readthedocs.io/en/dev/) - TextBlob is a Python (2 and 3) library for processing textual data.
+* [Keras] (keras.io/) - Keras is an open-source neural-network library written in Python. It is capable of running on top of TensorFlow, Microsoft Cognitive Toolkit, Theano, or PlaidML.
+* [Power BI] (https://powerbi.microsoft.com/) - Power BI is a collection of software services, apps, and connectors that work together to turn your unrelated sources of data into coherent, visually immersive, and interactive insights.
+
+
+
 
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
