@@ -3,7 +3,7 @@
 The topic of our project is to predict a closing stock price using historic stock data in combination with the sentiments of news articles and twitter tweets. We used an RNN LSTM (Long Short Term Memory) neural network model as this works best for time series data.
 
 ## Background, Findings and Details
-Further information can be found in our Poster as well as the Final Report. ADD LINKS
+Further information can be found in our [Poster ADD LINK](http://semver.org/) as well as the [Final Report ADD LINK](http://semver.org/).
 
 ## Getting Started
 
@@ -55,6 +55,7 @@ Glob Python3
 <!---sudo pip install glob3-->
 
 Download and install Power BI
+
 	https://powerbi.microsoft.com/en-us/downloads/
 
 
@@ -99,9 +100,6 @@ Parameter Tweaking
 Instructions & File Name
 
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
@@ -132,11 +130,8 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 * **Tommy Betz** - *Initial work* - [TommyBetz](https://github.com/TommyBetz)
 
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+<!---See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.-->
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
