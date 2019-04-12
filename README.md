@@ -9,13 +9,25 @@ Further information can be found in our [Poster ADD LINK](http://semver.org/) as
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
+### Requisites
 
 Our code is written in Python and executed on Google Google Cloud Dataproc (Cloud-native Apache Hadoop and Apache Spark) and Google Colab. Given the required libraries are installed, this code can also be run locally. However, as the twitter dataset reaches 3 TB, we recommend Google Dataproc for downloading and pre-processing such large data volume.
 
 For the visualizations part we used Power BI.
 
 As we used Google Dataproc and Google Colab, there was no need to install any additional packages and libraries. However, if you would like to run this code locally, these are the necessaties to install:
+
+#### Cloud Prerequisites
+
+To run the code on cloud computing:
+
+Google Cloud Dataproc] - Cloud-native Apache Hadoop and Apache Spark
+	https://cloud.google.com/dataproc/
+
+Google Colaboratory (Colab) - free Jupyter notebook environment that requires no setup and runs entirely in the cloud
+	https://colab.research.google.com/
+
+#### Local Prerequisites
 
 For a local installation, we recommend using Anaconda:
 
@@ -65,7 +77,10 @@ Please follow these instructions to obtain the raw datasets.
 
 ### News Data
 
-Instructions & File Name
+The News Data is downloaded from this site:
+
+	https://www.kaggle.com/rmisra/news-category-dataset 
+
 
 ### Twitter Data
 
