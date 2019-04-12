@@ -11,32 +11,50 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Our code is written in Python and executed on Google Google Cloud Dataproc (Cloud-native Apache Hadoop and Apache Spark) and Google Colab. Given the required libraries are installed, this code can also run locally. However, as the twitter dataset reaches 3 TB, we recommend Google Dataproc for downloading and pre-processing such data volume.
+Our code is written in Python and executed on Google Google Cloud Dataproc (Cloud-native Apache Hadoop and Apache Spark) and Google Colab. Given the required libraries are installed, this code can also be run locally. However, as the twitter dataset reaches 3 TB, we recommend Google Dataproc for downloading and pre-processing such large data volume.
 
 For the visualizations part we used Power BI.
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
 As we used Google Dataproc and Google Colab, there was no need to install any additional packages and libraries. However, if you would like to run this code locally, these are the necessaties to install:
 
+For a local installation, we recommend using Anaconda:
 
-```
-Give the example
-```
+Download and install Anaconda
+...
+https://www.anaconda.com/distribution/
+...
 
-And repeat
 
-```
-until finished
-```
+Jupyter Notebook
+...
+Comes pre-installed with Anaconda.
+<!---pip3 install --upgrade pip-->
+...
 
-End with an example of getting some data out of the system or using it for a little demo
+
+PySpark
+...
+conda install -c conda-forge pyspark
+<!---pip install pyspark-->
+...
+
+TextBlob
+...
+conda install -c conda-forge textblob 
+<!---pip install -U textblob-->
+...
+
+Pandas
+...
+conda install -c anaconda pandas
+<!---pip install pandas-->
+...
+
+Glob Python3
+...
+conda install -c conda-forge glob2 
+<!---sudo pip install glob3-->
+...
 
 
 ## Getting the Data
