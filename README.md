@@ -26,10 +26,10 @@ https://www.anaconda.com/distribution/
 
 
 Jupyter Notebook
-...
-Comes pre-installed with Anaconda.
+
+	Comes pre-installed with Anaconda.
 <!---pip3 install --upgrade pip-->
-...
+
 
 
 PySpark
