@@ -214,9 +214,6 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## References
 
-* REFERENCE 1
-* REFERENCE 2
-
 * [**Advances in Financial Machine Learning**](https://www.wiley.com/en-aw/Advances+in+Financial+Machine+Learning-p-9781119482086)
 * [**Datacamp – Stock Market Prediction**](https://www.datacamp.com/community/tutorials/lstm-python-stock-market)
 * **Github Repositories** – [LinuxIsCool](https://github.com/LinuxIsCool), [Bidirectional LSTM](https://github.com/keras-team/keras/issues/1629)
