@@ -3,7 +3,7 @@
 The topic of our project is to predict a closing stock price using historic stock data in combination with the sentiments of news articles and twitter tweets. We used an RNN LSTM (Long Short Term Memory) neural network model as this works best for time series data.
 
 ## Background, Findings and Details
-Further information can be found in our [Poster ADD LINK](http://semver.org/) as well as the [Final Report ADD LINK](http://semver.org/).
+Further information can be found in our [Poster](https://github.com/gauravprachchhak/Stock-Brokers/blob/master/submitted_documents/poster.pdf) as well as the [Final Report ADD LINK](ADD LINK).
 
 ## Getting Started
 
