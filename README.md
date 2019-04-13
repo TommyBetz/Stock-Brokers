@@ -1,4 +1,4 @@
-# SFU Big Data II Final Project: Stock Market Prediction
+# SFU Big Data II Final Project: Stock Market Predictions
 
 The topic of our project is to predict a closing stock price using historic stock data in combination with the sentiments of news articles and twitter tweets. We used an RNN LSTM (Long Short Term Memory) neural network model as this works best for time series data.
 
