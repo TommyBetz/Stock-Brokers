@@ -156,9 +156,9 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 * REFERENCE 1
 * REFERENCE 2
 
-## Acknowledgments
+<!---## Acknowledgments
 
 * Hat tip to anyone whose code was used
 * Inspiration
-* etc
+* etc-->
 
