@@ -97,8 +97,10 @@ For Apple:
 	[Huffington_News_Sentiment_Apple.py](https://github.com/gauravprachchhak/Stock-Brokers/blob/master/Huffington_News_Sentiment_Apple.py)
 ```
 $ python3 Huffington\_News_Sentiment_\Apple.py <INPUT_PATH> <OUTPUT_PATH>
+
 ```
 `INPUT_PATH`: path to the directory containing all csv files.
+
 `OUTPUT_PATH`: file path where output csv file will be written.
 
 For Facebook:
