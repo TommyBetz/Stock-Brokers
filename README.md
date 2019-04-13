@@ -77,10 +77,7 @@ Please follow these instructions to obtain the raw datasets.
 
 ### News Data
 
-The News Data is downloaded from this site:
-
-	https://www.kaggle.com/rmisra/news-category-dataset 
-
+The [News Data](https://www.kaggle.com/rmisra/news-category-dataset) used grabbed from [Kaggle](https://www.kaggle.com/datasets). 
 
 ### Twitter Data
 
@@ -88,7 +85,9 @@ Instructions & File Name
 
 ### Historic Stock Data
 
-Instructions & File Name
+We get our stock data from [Quandl API](https://www.quandl.com/) and [Yahoo Finance using Pandas Datareader](https://pandas-datareader.readthedocs.io/en/latest/).
+
+You can find the code that gets this data [here](https://github.com/gauravprachchhak/Stock-Brokers/blob/master/Stock%20Data%20Grabber.py).
 
 ## Pre-Processing
 
@@ -102,7 +101,7 @@ Instructions & File Name
 
 ### Historic Stock Data
 
-Instructions & File Name
+All the preprocessing tasks for the stock data were handled during data collection only.
 
 ## Running the LSTM (Long Short Term Memory) Model
 
