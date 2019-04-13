@@ -101,7 +101,11 @@ For Facebook:
 
 ### Twitter Data
 
-Instructions & File Name
+For Apple:
+	[Twitter_SentimentAnalysis_Apple.py](https://github.com/gauravprachchhak/Stock-Brokers/blob/master/Twitter_SentimentAnalysis_Apple.py)
+
+For Facebook:
+	[Twitter_SentimentAnalysis_Facebook.py](https://github.com/gauravprachchhak/Stock-Brokers/blob/master/Twitter_SentimentAnalysis_Facebook.py)
 
 ### Historic Stock Data
 
