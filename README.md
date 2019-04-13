@@ -104,6 +104,7 @@ For Facebook:
 $ python3 Huffington\_News_Sentiment_\Facebook.py <INPUT_PATH> <OUTPUT_PATH>
 ```
 `INPUT_PATH`: path to the directory containing all csv files.
+
 `OUTPUT_PATH`: file path where output csv file will be written.
 
 
@@ -111,9 +112,19 @@ $ python3 Huffington\_News_Sentiment_\Facebook.py <INPUT_PATH> <OUTPUT_PATH>
 
 For Apple:
 	[Twitter_SentimentAnalysis_Apple.py](https://github.com/gauravprachchhak/Stock-Brokers/blob/master/Twitter_SentimentAnalysis_Apple.py)
+```
+$ python3 Twitter\_SentimentAnalysis\_Apple.py <INPUT_PATH> <OUTPUT_PATH>
+```
 
 For Facebook:
 	[Twitter_SentimentAnalysis_Facebook.py](https://github.com/gauravprachchhak/Stock-Brokers/blob/master/Twitter_SentimentAnalysis_Facebook.py)
+```
+$ python3 Twitter\_SentimentAnalysis\_Facebook.py <INPUT_PATH> <OUTPUT_PATH>
+```
+`INPUT_PATH`: path to the directory containing all parquet files.
+
+`OUTPUT_PATH`: file path where output csv file will be written.
+
 
 ### Historic Stock Data
 
