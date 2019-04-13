@@ -1,5 +1,7 @@
 # This code combines multiple parquet files. It takes as an input the root folder and the name of an output file.
 
+# Command to run: time spark-submit combine_multiple_parquet_files.py /path_to_input_folder /path_to_output_file.
+
 # Reading all the files.
 import sys
 import os

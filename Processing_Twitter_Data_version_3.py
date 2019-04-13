@@ -2,6 +2,9 @@
 # this code copies every file into a single folder and reads all the parquet files and processes all the data in a
 # single run.
 
+# Command to run: time spark-submit Processing_Twitter_Data_version_3.py /path_to_input_folder /path_to_output_folder
+# /path_to_intermediate_folder
+
 import datetime
 from dateutil.parser import parse
 import pyfastcopy

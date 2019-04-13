@@ -1,3 +1,4 @@
+# Command to run: time spark-submit Processing_Twitter_Data_version_2.py /path_to_input_folder /path_to_output_folder
 import datetime
 from dateutil.parser import parse
 
