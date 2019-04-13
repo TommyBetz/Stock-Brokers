@@ -77,11 +77,13 @@ Please follow these instructions to obtain the raw datasets.
 
 ### News Data
 
-The [News Data](https://www.kaggle.com/rmisra/news-category-dataset) used grabbed from [Kaggle](https://www.kaggle.com/datasets). 
+The [News Data](https://www.kaggle.com/rmisra/news-category-dataset) is grabbed from [Kaggle](https://www.kaggle.com/datasets). 
 
 ### Twitter Data
 
-Instructions & File Name
+The [Twitter Data](https://archive.org/search.php?query=collection%3Atwitterstream&sort=-publicdate&page=1) is collected from the Internet Archive collection of twitter stream.
+
+We then downloaded all datasets onto the cluster and ran FILE to ..... *EDIT*
 
 ### Historic Stock Data
 
