@@ -175,9 +175,9 @@ All the preprocessing tasks for the stock data were handled during data collecti
 
 ## Running the LSTM (Long Short Term Memory) Model
 
-Instructions & File Name
-Parameter Tweaking
+LSTM_Model.ipynb
 
+It contains the LSTM model developed using Keras.
 
 ## Visualizations
 
