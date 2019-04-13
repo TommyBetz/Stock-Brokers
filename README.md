@@ -143,8 +143,7 @@ Parameter Tweaking
 
 ## Visualizations
 
-Instructions & File Name
-
+We created our visualizations in the free version of Power BI. As we do not have a license, we are not able to provide a file to share. However, the visualizations can be found in the [PDF print out](https://github.com/gauravprachchhak/Stock-Brokers/blob/master/submitted_documents/StockPredictionResults.pdf).
 
 
 ## Built With
