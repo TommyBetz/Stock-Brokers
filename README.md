@@ -94,14 +94,14 @@ You can find the code that gets this data [here](https://github.com/gauravprachc
 ### News Data
 
 For Apple:
-	[Huffington_News_Sentiment_Apple.py](https://github.com/gauravprachchhak/Stock-Brokers/blob/master/Huffington_News_Sentiment_Apple.py)
+	[HuffingtonNewsSentimentApple.py](https://github.com/gauravprachchhak/Stock-Brokers/blob/master/HuffingtonNewsSentimentApple.py)
 ```
-$ python3 Huffington\_News_Sentiment_\Apple.py <INPUT_PATH> <OUTPUT_PATH>
+$ python3 HuffingtonNewsSentimentApple.py <INPUT_PATH> <OUTPUT_PATH>
 ```
 For Facebook:
-	[Huffington_News_Sentiment_Facebook.py](https://github.com/gauravprachchhak/Stock-Brokers/blob/master/Huffington_News_Sentiment_Facebook.py)
+	[HuffingtonNewsSentimentFacebook.py](https://github.com/gauravprachchhak/Stock-Brokers/blob/master/HuffingtonNewsSentimentFacebook.py)
 ```
-$ python3 Huffington\_News_Sentiment_\Facebook.py <INPUT_PATH> <OUTPUT_PATH>
+$ python3 HuffingtonNewsSentimentFacebook.py <INPUT_PATH> <OUTPUT_PATH>
 ```
 `INPUT_PATH`: path to the directory containing all csv files.
 
@@ -111,15 +111,15 @@ $ python3 Huffington\_News_Sentiment_\Facebook.py <INPUT_PATH> <OUTPUT_PATH>
 ### Twitter Data
 
 For Apple:
-	[Twitter_SentimentAnalysis_Apple.py](https://github.com/gauravprachchhak/Stock-Brokers/blob/master/Twitter_SentimentAnalysis_Apple.py)
+	[TwitterSentimentAnalysisApple.py](https://github.com/gauravprachchhak/Stock-Brokers/blob/master/TwitterSentimentAnalysisApple.py)
 ```
-$ python3 Twitter\_SentimentAnalysis\_Apple.py <INPUT_PATH> <OUTPUT_PATH>
+$ python3 TwitterSentimentAnalysisApple.py <INPUT_PATH> <OUTPUT_PATH>
 ```
 
 For Facebook:
-	[Twitter_SentimentAnalysis_Facebook.py](https://github.com/gauravprachchhak/Stock-Brokers/blob/master/Twitter_SentimentAnalysis_Facebook.py)
+	[TwitterSentimentAnalysisFacebook.py](https://github.com/gauravprachchhak/Stock-Brokers/blob/master/TwitterSentimentAnalysisFacebook.py)
 ```
-$ python3 Twitter\_SentimentAnalysis\_Facebook.py <INPUT_PATH> <OUTPUT_PATH>
+$ python3 TwitterSentimentAnalysisFacebook.py <INPUT_PATH> <OUTPUT_PATH>
 ```
 `INPUT_PATH`: path to the directory containing all parquet files.
 
@@ -180,4 +180,3 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 * Hat tip to anyone whose code was used
 * Inspiration
 * etc-->
-
