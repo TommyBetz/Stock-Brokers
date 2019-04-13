@@ -5,7 +5,7 @@ The topic of our project is to predict a closing stock price using historic stoc
 ## Background, Findings and Details
 Further information can be found in our 
  - [Poster](https://github.com/gauravprachchhak/Stock-Brokers/blob/master/submitted_documents/poster.pdf)
- - [Final Report ADD LINK](ADD LINK)
+ - [Final Report](https://github.com/gauravprachchhak/Stock-Brokers/blob/master/submitted_documents/Report.pdf)
  - [Video](https://www.youtube.com/watch?v=8l-cNF2IGjU)
 
 ## Getting Started ADD
@@ -175,7 +175,7 @@ All the preprocessing tasks for the stock data were handled during data collecti
 
 ## Running the LSTM (Long Short Term Memory) Model
 
-LSTM_Model.ipynb
+[LSTM_Model.ipynb](https://github.com/gauravprachchhak/Stock-Brokers/blob/master/LSTM_Model.ipynb)
 
 It contains the LSTM model developed using Keras.
 
