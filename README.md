@@ -115,6 +115,33 @@ $ python3 HuffingtonNewsSentimentFacebook.py <INPUT_PATH> <OUTPUT_PATH>
 
 ### Twitter Data
 
+For pre-processing Twitter data: Processing_Twitter_Data_version_1.py
+	```
+$ python3 time spark-submit Processing_Twitter_Data_version_1.py /path_to_input_folder
+```
+`path_to_input_folder`: path to the directory containing all nested JSON files.
+
+
+For pre-processing Twitter data: Processing_Twitter_Data_version_2.py
+	```
+$ python3 time spark-submit Processing_Twitter_Data_version_2.py /path_to_input_folder /path_to_output_folder
+```
+`path_to_input_folder`: path to the directory containing all nested JSON files.
+
+`path_to_output_folder`: file path where output parquet files will be written.
+
+
+
+For pre-processing Twitter data: Processing_Twitter_Data_version_3.py
+	```
+$ python3 time spark-submit Processing_Twitter_Data_version_3.py /path_to_input_folder /path_to_output_folder /path_to_intermediate_folder
+```
+`path_to_input_folder`: path to the directory containing all nested JSON files.
+
+`path_to_output_folder`: file path where output parquet files will be written.
+
+`path_to_intermediate_folder`: file path contains all the files from the nested file structure.
+
 For Apple:
 	[TwitterSentimentAnalysisApple.py](https://github.com/gauravprachchhak/Stock-Brokers/blob/master/TwitterSentimentAnalysisApple.py)
 ```
@@ -148,14 +175,14 @@ We created our visualizations in the free version of Power BI. As we do not have
 
 ## Built With
 
-* [Google Cloud Dataproc] (https://cloud.google.com/dataproc/) - Cloud-native Apache Hadoop and Apache Spark)
-* [Google Colaboratory (Colab)] (https://colab.research.google.com/) - free Jupyter notebook environment that requires no setup and runs entirely in the cloud
-* [Apache Spark] (https://spark.apache.org/) - Apache Spark is a unified analytics engine for big data processing, with built-in modules for streaming, SQL, machine learning and graph processing.
-* [Pandas] (https://pandas.pydata.org/) - pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming
-* [NumPy] (www.numpy.org/) - NumPy is the fundamental package for scientific computing with Python
-* [TextBlob (Simplified Text Processing)] (https://textblob.readthedocs.io/en/dev/) - TextBlob is a Python (2 and 3) library for processing textual data.
-* [Keras] (keras.io/) - Keras is an open-source neural-network library written in Python. It is capable of running on top of TensorFlow, Microsoft Cognitive Toolkit, Theano, or PlaidML.
-* [Power BI] (https://powerbi.microsoft.com/) - Power BI is a collection of software services, apps, and connectors that work together to turn your unrelated sources of data into coherent, visually immersive, and interactive insights.
+* **Google Cloud Dataproc** https://cloud.google.com/dataproc/ - Cloud-native Apache Hadoop and Apache Spark
+* **Google Colaboratory (Colab)** https://colab.research.google.com/ - free Jupyter notebook environment that requires no setup and runs entirely in the cloud
+* **Apache Spark** https://spark.apache.org/ - Apache Spark is a unified analytics engine for big data processing, with built-in modules for streaming, SQL, machine learning and graph processing.
+* **Pandas** https://pandas.pydata.org/ - pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming
+* **NumPy** www.numpy.org/ - NumPy is the fundamental package for scientific computing with Python
+* **TextBlob (Simplified Text Processing)** https://textblob.readthedocs.io/en/dev/ - TextBlob is a Python (2 and 3) library for processing textual data.
+* **Keras** keras.io/ - Keras is an open-source neural-network library written in Python. It is capable of running on top of TensorFlow, Microsoft Cognitive Toolkit, Theano, or PlaidML.
+* **Power BI** https://powerbi.microsoft.com/ - Power BI is a collection of software services, apps, and connectors that work together to turn your unrelated sources of data into coherent, visually immersive, and interactive insights.
 
 
 
@@ -166,10 +193,10 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Authors
 
-* **Gaurav Prachchhak** - *Initial work* - [gauravprachchhak](https://github.com/gauravprachchhak)
-* **Mihir Gajjar** - *Initial work* - [GajjarMihir](https://github.com/GajjarMihir)
-* **Veekesh Dhununjoy** - *Initial work* - [veekeshjoy](https://github.com/veekeshjoy)
-* **Tommy Betz** - *Initial work* - [TommyBetz](https://github.com/TommyBetz)
+* **Gaurav Prachchhak** - [gauravprachchhak](https://github.com/gauravprachchhak)
+* **Mihir Gajjar** - [GajjarMihir](https://github.com/GajjarMihir)
+* **Veekesh Dhununjoy** - [veekeshjoy](https://github.com/veekeshjoy)
+* **Tommy Betz** - [TommyBetz](https://github.com/TommyBetz)
 
 
 <!---See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.-->
