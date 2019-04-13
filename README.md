@@ -96,10 +96,10 @@ You can find the code that gets this data [here](https://github.com/gauravprachc
 For Apple:
 	[Huffington_News_Sentiment_Apple.py](https://github.com/gauravprachchhak/Stock-Brokers/blob/master/Huffington_News_Sentiment_Apple.py)
 ```
-$ python3 Huffington_News_Sentiment_Apple.py <INPUT_PATH> <OUTPUT_PATH>
+$ python3 Huffington\_News\_Sentiment\_Apple.py <INPUT_PATH> <OUTPUT_PATH>
 ```
-`inputs`: path to the directory containing all csv files.
-`output`: file path where output csv file will be written.
+`INPUT_PATH`: path to the directory containing all csv files.
+`OUTPUT_PATH`: file path where output csv file will be written.
 
 For Facebook:
 	[Huffington_News_Sentiment_Facebook.py](https://github.com/gauravprachchhak/Stock-Brokers/blob/master/Huffington_News_Sentiment_Facebook.py)
