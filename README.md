@@ -41,7 +41,7 @@ Download and install Anaconda
 
 Jupyter Notebook
 
-	Comes pre-installed with Anaconda.
+	comes pre-installed with Anaconda.
 <!---pip3 install --upgrade pip-->
 
 
