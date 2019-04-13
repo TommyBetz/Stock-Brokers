@@ -116,14 +116,16 @@ $ python3 HuffingtonNewsSentimentFacebook.py <INPUT_PATH> <OUTPUT_PATH>
 ### Twitter Data
 
 For pre-processing Twitter data: Processing_Twitter_Data_version_1.py
-	```
+
+```
 $ python3 time spark-submit Processing_Twitter_Data_version_1.py /path_to_input_folder
 ```
 `path_to_input_folder`: path to the directory containing all nested JSON files.
 
 
 For pre-processing Twitter data: Processing_Twitter_Data_version_2.py
-	```
+
+```
 $ python3 time spark-submit Processing_Twitter_Data_version_2.py /path_to_input_folder /path_to_output_folder
 ```
 `path_to_input_folder`: path to the directory containing all nested JSON files.
@@ -131,9 +133,9 @@ $ python3 time spark-submit Processing_Twitter_Data_version_2.py /path_to_input_
 `path_to_output_folder`: file path where output parquet files will be written.
 
 
-
 For pre-processing Twitter data: Processing_Twitter_Data_version_3.py
-	```
+
+```
 $ python3 time spark-submit Processing_Twitter_Data_version_3.py /path_to_input_folder /path_to_output_folder /path_to_intermediate_folder
 ```
 `path_to_input_folder`: path to the directory containing all nested JSON files.
