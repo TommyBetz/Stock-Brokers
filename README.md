@@ -5,7 +5,9 @@ The topic of our project is to predict a closing stock price using historic stoc
 ## Background, Findings and Details
 Further information can be found in our 
 	[Poster](https://github.com/gauravprachchhak/Stock-Brokers/blob/master/submitted_documents/poster.pdf)
+
 	[Final Report ADD LINK](ADD LINK)
+
 	[Video](https://www.youtube.com/watch?v=8l-cNF2IGjU)
 
 ## Getting Started ADD
