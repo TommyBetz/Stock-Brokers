@@ -7,7 +7,7 @@ Further information can be found in our [Poster ADD LINK](http://semver.org/) as
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+<!--These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.-->
 
 ### Requisites
 
@@ -93,7 +93,11 @@ You can find the code that gets this data [here](https://github.com/gauravprachc
 
 ### News Data
 
-Instructions & File Name
+For Apple:
+	[Huffington_News_Sentiment_Apple.py](https://github.com/gauravprachchhak/Stock-Brokers/blob/master/Huffington_News_Sentiment_Apple.py)
+
+For Facebook:
+	[Huffington_News_Sentiment_Facebook.py](https://github.com/gauravprachchhak/Stock-Brokers/blob/master/Huffington_News_Sentiment_Facebook.py)
 
 ### Twitter Data
 
