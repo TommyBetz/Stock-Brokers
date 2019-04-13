@@ -118,7 +118,7 @@ $ python3 HuffingtonNewsSentimentFacebook.py <INPUT_PATH> <OUTPUT_PATH>
 For pre-processing Twitter data: Processing_Twitter_Data_version_1.py
 
 ```
-$ python3 time spark-submit Processing_Twitter_Data_version_1.py /path_to_input_folder
+$ time spark-submit Processing_Twitter_Data_version_1.py /path_to_input_folder
 ```
 `path_to_input_folder`: path to the directory containing all nested JSON files.
 
@@ -126,7 +126,7 @@ $ python3 time spark-submit Processing_Twitter_Data_version_1.py /path_to_input_
 For pre-processing Twitter data: Processing_Twitter_Data_version_2.py
 
 ```
-$ python3 time spark-submit Processing_Twitter_Data_version_2.py /path_to_input_folder /path_to_output_folder
+$ time spark-submit Processing_Twitter_Data_version_2.py /path_to_input_folder /path_to_output_folder
 ```
 `path_to_input_folder`: path to the directory containing all nested JSON files.
 
@@ -136,7 +136,7 @@ $ python3 time spark-submit Processing_Twitter_Data_version_2.py /path_to_input_
 For pre-processing Twitter data: Processing_Twitter_Data_version_3.py
 
 ```
-$ python3 time spark-submit Processing_Twitter_Data_version_3.py /path_to_input_folder /path_to_output_folder /path_to_intermediate_folder
+$ time spark-submit Processing_Twitter_Data_version_3.py /path_to_input_folder /path_to_output_folder /path_to_intermediate_folder
 ```
 `path_to_input_folder`: path to the directory containing all nested JSON files.
 
@@ -159,6 +159,15 @@ $ python3 TwitterSentimentAnalysisFacebook.py <INPUT_PATH> <OUTPUT_PATH>
 
 `OUTPUT_PATH`: file path where output csv file will be written.
 
+
+To combine multiple parquet files: combine_multiple_parquet_files.py
+```
+$ time spark-submit combine_multiple_parquet_files.py /path_to_input_folder /path_to_output_file
+```
+
+`path_to_input_folder`: path to the directory containing all parquet files.
+
+`path_to_output_file`:  file path where output parquet file will be written.
 
 ### Historic Stock Data
 
